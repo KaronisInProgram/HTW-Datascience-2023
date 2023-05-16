@@ -1,0 +1,3 @@
+[submodule "Data/Raw/Covid"]
+	path = Data/Raw/Covid
+	url = https://github.com/robert-koch-institut/SARS-CoV-2-Infektionen_in_Deutschland
