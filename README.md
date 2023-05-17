@@ -13,9 +13,9 @@ Here is a short list of the used Tools and Libarys.
 
 ### Tools
 
-[Conda](https://docs.conda.io/projects/conda/en/stable/) with [Anaconda](https://www.anaconda.com/) or [Miniconda](https://docs.conda.io/en/latest/miniconda.html)
-[Jupyter](https://docs.jupyter.org/en/latest/start/index.html)
+- [Conda](https://docs.conda.io/projects/conda/en/stable/) (with [Anaconda](https://www.anaconda.com/) or [Miniconda](https://docs.conda.io/en/latest/miniconda.html))
+- [Jupyter](https://docs.jupyter.org/en/latest/start/index.html)
 
 ### Libarys
 
-[Pandas](https://pandas.pydata.org/getting_started.html)
+- [Pandas](https://pandas.pydata.org/getting_started.html)
