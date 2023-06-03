@@ -19,3 +19,70 @@ Here is a short list of the used Tools and Libarys.
 ### Libaries
 
 - [Pandas](https://pandas.pydata.org/getting_started.html)
+
+### Description of Output
+
+Here is a Description of the normalized output.
+
+#### Covid
+
+| Characteristic    | Description                                                                                                                   |
+|:-----------------:|:----------------------------------------------------------------------------------------------------------------------------- |
+| Bundesland        | The federal state this record is mapped to.                                                                                   |
+| Meldedatum        | Represents the date when the case was registered.                                                                             |
+| Refdatum          | Represents the date when the case was happening.                                                                              |
+| AnzahlFall        | Sum of all cases for the tuple (Bundesland, Meldedatum) or (Bundesland, Refdatum) decided by which of the dates is present.   |
+| AnzahlTodesfall   | Sum of all Death for the tuple (Bundesland, Meldedatum) or (Bundesland, Refdatum) decided by which of the dates is present.   |
+| AnzahlGenesen     | Sum of all healed for the tuple (Bundesland, Meldedatum) or (Bundesland, Refdatum) decided by which of the dates is present.  |
+
+The Output ist split in 2 Files. One with the tuple (Bundesland, Meldedatum) ond one with (Bundesland, Refdatum). The above decriped field contains all information of both outputs.
+
+#### Covid-Counteractions
+
+| Characteristic                                            | Description                                           |
+|:---------------------------------------------------------:|:----------------------------------------------------- |
+| Bundesland                                                | The federal state this record is mapped to.           |
+| Datum                                                     | The date when an Action could be active or inactive.  |
+| Kontaktbeschränkung Privatpersonen im privatem Raum       |
+| Kontaktbeschränkung Privatpersonen im öffentlichen Raum   |
+| Weiterführende Schulen                                    |
+| Grundschulen                                              |
+| Kitas                                                     |
+| Öffentliche Events & Veranstaltungen Indoor               |
+| Öffentliche Events & Veranstaltungen Outdoor              |
+| Kultur- & Bildungseinrichtungen                           |
+| Groß- & Einzelhandel                                      |
+| Gastronomie                                               |
+| Dienstleistungen & Handwerk                               |
+| Einrichtungen des Nachtlebens                             |
+| Beherbergung                                              |
+| Sport Indoor                                              |
+| Sport Outdoor                                             |
+| Reisebeschränkung Inland                                  |
+| Reisebeschränkung Ausland                                 |
+| Arbeitsplatzbeschränkung                                  |
+| Ausgangsbeschränkung                                      |
+| Kapazitätsbeschränkung im öffentlichen Verkehr            |
+
+#### PM10
+
+| Characteristic    | Description                                               |
+|:-----------------:|:--------------------------------------------------------- |
+| Bundesland        | The federal state this record is mapped to.               |
+| Datum             | The date the PM10 value was measured.                     |
+| Stationscode      | An unique code for the station.                           |
+| Stationsumgebung  | Description of the surrounding (regieon) of the station.  |
+| Art der Station   | Description how the station is installed.                 |
+| Messwert          | The measured value as the daily average of 24 hours.      |
+
+"Stationsumgebung" has the options of:
+
+- "städtisches Gebiet" means that this station is inside a city
+- "vorstädtisches Gebiet" means that this station is in the suburban region of a city
+- "ländliches Gebiet" means that this station is outside of a city
+
+"Art der Station" has the options of:
+
+- "Hintergrund" means that this station not near streets or other busy places installed
+- "Industrie" means that this station is near or in an industry installed
+- "Verkehr" means that this station is near or on a street installed
