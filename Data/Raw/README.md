@@ -10,6 +10,8 @@ The Folder "Covid" is a special case  where it is an submodul of the repository 
 - [Covid](https://github.com/robert-koch-institut/SARS-CoV-2-Infektionen_in_Deutschland) (see above)
 - [Covid-Counteractions](https://www.corona-daten-deutschland.de/dataset)
   - File: [Bundesland_Oberkategorie](https://www.corona-daten-deutschland.de/dataset/massnahmen_oberkategorien_bundeslaender)
+- [Emission overviews by sector](https://www.umweltbundesamt.de/sites/default/files/medien/361/dokumente/2023_03_15_em_entwicklung_in_d_ksg-sektoren_pm.xlsx)
+- [Emission overviews by type of gas](https://www.umweltbundesamt.de/sites/default/files/medien/361/dokumente/2023_03_15_em_entwicklung_in_d_ksg-sektoren_pm.xlsx)
 - [Geographic](https://www.destatis.de/DE/Themen/Laender-Regionen/_inhalt.html)
   - File: [AuszugGV2QAktuell](https://www.destatis.de/DE/Themen/Laender-Regionen/Regionales/Gemeindeverzeichnis/Administrativ/Archiv/GVAuszugQ/AuszugGV2QAktuell.html)
 - [PM10](https://www.umweltbundesamt.de/daten/luft/luftdaten)
