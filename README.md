@@ -75,6 +75,15 @@ The Output ist split in 2 Files. One with the tuple (Bundesland, Meldedatum) ond
 | Landwirtschaft    | Represents the number of thousands of tons of CO2 emissions in the agricultural sector.                                       |
 | Abfallwirtschaft und Sonstiges | Represents the number of thousands of tons of CO2 emissions from the waste management sector and the rest.       |
 
+#### Emission-overviews-by-type-of-gas
+
+| Characteristic    | Description                                                                                                                   |
+|:-----------------:|:----------------------------------------------------------------------------------------------------------------------------- |
+| Gesamtemissionen  | Total thousands of tons of greenhouse gas emissions for the year in question.                                                 |
+| Kohlendioxid      | Thousands of tons of kohlendioxide emissions for the year in question.                                                        |                   
+| Methan            | Thousands of tons of methan emissions for the year in question.                                                               | 
+| Lachgas           | Thousands of tons of nitrous oxide emissions for the year in question.                                                        |
+| F-Gase            | Thousands of tons of F-Gases emissions for the year in question.                                                              |
 
 #### PM10
 
