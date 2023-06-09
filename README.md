@@ -86,3 +86,15 @@ The Output ist split in 2 Files. One with the tuple (Bundesland, Meldedatum) ond
 - "Hintergrund" means that this station not near streets or other busy places installed
 - "Industrie" means that this station is near or in an industry installed
 - "Verkehr" means that this station is near or on a street installed
+
+#### Emission-overviews-by-sector
+
+| Characteristic    | Description                                                                                                                   |
+|:-----------------:|:----------------------------------------------------------------------------------------------------------------------------- |
+| Sektor            | Total thousands of tons of CO2 emissions by economic sector.                                                                  |
+| Energiewirtschaft | Represents the number of thousands of tons of CO2 emissions in the energy economy.                                            |                   
+| Industrie         | Represents the number of thousands of tons of CO2 emissions in the industrie.                                                 | 
+| Gebäude           | Represents the number of thousands of tons of CO2 emissions in the building sector.                                           |
+| Landwirtschaft    | Represents the number of thousands of tons of CO2 emissions in the agricultural sector.                                       |
+| Abfallwirtschaft und Sonstiges | Represents the number of thousands of tons of CO2 emissions from the waste management sector and the rest.       |
+
