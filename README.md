@@ -85,6 +85,16 @@ The Output ist split in 2 Files. One with the tuple (Bundesland, Meldedatum) ond
 | Lachgas           | Thousands of tons of nitrous oxide emissions for the year in question.                                                        |
 | F-Gase            | Thousands of tons of F-Gases emissions for the year in question.                                                              |
 
+
+#### Fluggastverkehr
+
+| Characteristic    | Description                                                                                                                   |
+|:-----------------:|:----------------------------------------------------------------------------------------------------------------------------- |
+| Time              | Total thousands of tons of greenhouse gas emissions for the year in question.                                                 |
+| Europäische Union | Total passenger traffic in the European Union for the year in question.                                                       |            
+| Deutschland       | Total passenger traffic in Germany for the year in question.                                                                  | 
+
+
 #### PM10
 
 | Characteristic    | Description                                               |
