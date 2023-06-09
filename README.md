@@ -95,6 +95,15 @@ The Output ist split in 2 Files. One with the tuple (Bundesland, Meldedatum) ond
 | Deutschland       | Total passenger traffic in Germany for the year in question.                                                                  | 
 
 
+#### Gueter-Personenverkehr
+
+| Characteristic    | Description                                                                                                                   |
+|:-----------------:|:----------------------------------------------------------------------------------------------------------------------------- |
+| Jahr              | Year of traffic flow measurement.                                                                                             |
+| Personenverkehr   | Data for personal vehicle traffic, the amount of which is indicated in passenger kilometers.                                  |            
+| Gueterverkehr     | Data for truck traffic, the value of which is indicated in passenger kilometers.                                              | 
+
+
 #### PM10
 
 | Characteristic    | Description                                               |
