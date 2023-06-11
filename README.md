@@ -64,6 +64,30 @@ The Output ist split in 2 Files. One with the tuple (Bundesland, Meldedatum) ond
 | Ausgangsbeschränkung                                      |
 | Kapazitätsbeschränkung im öffentlichen Verkehr            |
 
+#### PM10
+
+| Characteristic    | Description                                               |
+|:-----------------:|:--------------------------------------------------------- |
+| Bundesland        | The federal state this record is mapped to.               |
+| Datum             | The date the PM10 value was measured.                     |
+| Stationscode      | An unique code for the station.                           |
+| Stationsumgebung  | Description of the surrounding (regieon) of the station.  |
+| Art der Station   | Description how the station is installed.                 |
+| Messwert          | The measured value as the daily average of 24 hours.      |
+
+"Stationsumgebung" has the options of:
+
+- "städtisches Gebiet" means that this station is inside a city
+- "vorstädtisches Gebiet" means that this station is in the suburban region of a city
+- "ländliches Gebiet" means that this station is outside of a city
+
+"Art der Station" has the options of:
+
+- "Hintergrund" means that this station not near streets or other busy places installed
+- "Industrie" means that this station is near or in an industry installed
+- "Verkehr" means that this station is near or on a street installed
+
+
 #### Emission-overviews-by-sector
 
 | Characteristic    | Description                                                                                                                   |
@@ -102,27 +126,3 @@ The Output ist split in 2 Files. One with the tuple (Bundesland, Meldedatum) ond
 | Jahr              | Year of traffic flow measurement.                                                                                             |
 | Personenverkehr   | Data for personal vehicle traffic, the amount of which is indicated in passenger kilometers.                                  |            
 | Gueterverkehr     | Data for truck traffic, the value of which is indicated in passenger kilometers.                                              | 
-
-
-#### PM10
-
-| Characteristic    | Description                                               |
-|:-----------------:|:--------------------------------------------------------- |
-| Bundesland        | The federal state this record is mapped to.               |
-| Datum             | The date the PM10 value was measured.                     |
-| Stationscode      | An unique code for the station.                           |
-| Stationsumgebung  | Description of the surrounding (regieon) of the station.  |
-| Art der Station   | Description how the station is installed.                 |
-| Messwert          | The measured value as the daily average of 24 hours.      |
-
-"Stationsumgebung" has the options of:
-
-- "städtisches Gebiet" means that this station is inside a city
-- "vorstädtisches Gebiet" means that this station is in the suburban region of a city
-- "ländliches Gebiet" means that this station is outside of a city
-
-"Art der Station" has the options of:
-
-- "Hintergrund" means that this station not near streets or other busy places installed
-- "Industrie" means that this station is near or in an industry installed
-- "Verkehr" means that this station is near or on a street installed
