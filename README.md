@@ -39,30 +39,30 @@ The Output ist split in 2 Files. One with the tuple (Bundesland, Meldedatum) ond
 
 #### Covid-Counteractions
 
-| Characteristic                                            | Description                                           |
-|:---------------------------------------------------------:|:----------------------------------------------------- |
-| Bundesland                                                | The federal state this record is mapped to.           |
-| Datum                                                     | The date when an Action could be active or inactive.  |
-| Kontaktbeschränkung Privatpersonen im privatem Raum       |
-| Kontaktbeschränkung Privatpersonen im öffentlichen Raum   |
-| Weiterführende Schulen                                    |
-| Grundschulen                                              |
-| Kitas                                                     |
-| Öffentliche Events & Veranstaltungen Indoor               |
-| Öffentliche Events & Veranstaltungen Outdoor              |
-| Kultur- & Bildungseinrichtungen                           |
-| Groß- & Einzelhandel                                      |
-| Gastronomie                                               |
-| Dienstleistungen & Handwerk                               |
-| Einrichtungen des Nachtlebens                             |
-| Beherbergung                                              |
-| Sport Indoor                                              |
-| Sport Outdoor                                             |
-| Reisebeschränkung Inland                                  |
-| Reisebeschränkung Ausland                                 |
-| Arbeitsplatzbeschränkung                                  |
-| Ausgangsbeschränkung                                      |
-| Kapazitätsbeschränkung im öffentlichen Verkehr            |
+| Characteristic                                            | Description                                                                |
+|:---------------------------------------------------------:|:-------------------------------------------------------------------------- |
+| Bundesland                                                | The federal state this record is mapped to.                                |
+| Datum                                                     | The date when an Action could be active or inactive.                       |
+| Kontaktbeschränkung Privatpersonen im privatem Raum       | Measure: Restriction of contact with private individuals in private spaces |
+| Kontaktbeschränkung Privatpersonen im öffentlichen Raum   | Measure: Restriction of contact with private individuals in public spaces
+| Weiterführende Schulen                                    | Measure for secondary schools
+| Grundschulen                                              | Measure for elementary schools    
+| Kitas                                                     | Measure for daycares
+| Öffentliche Events & Veranstaltungen Indoor               | Measure: Public Events & Events Indoor    
+| Öffentliche Events & Veranstaltungen Outdoor              | Measure: Public Events & Events Outdoor    
+| Kultur- & Bildungseinrichtungen                           | Measure for cultural & educational institutions  
+| Groß- & Einzelhandel                                      | Measure for wholesale & retail     
+| Gastronomie                                               | Measure for gastronomy
+| Dienstleistungen & Handwerk                               | Measure for services & crafts  
+| Einrichtungen des Nachtlebens                             | Measure for nightlife establishments   
+| Beherbergung                                              | Measure for accommodation
+| Sport Indoor                                              | Measure for Sport Indoor
+| Sport Outdoor                                             | Measure for Sport Outdoor
+| Reisebeschränkung Inland                                  | Measure for travel restriction inland
+| Reisebeschränkung Ausland                                 | Measure for travel restriction abroad  
+| Arbeitsplatzbeschränkung                                  | Measure for job restriction 
+| Ausgangsbeschränkung                                      | Measure for exit restriction
+| Kapazitätsbeschränkung im öffentlichen Verkehr            | Measure: Capacity limitation in public transport 
 
 #### PM10
 
