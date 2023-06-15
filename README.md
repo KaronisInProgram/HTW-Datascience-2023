@@ -66,14 +66,14 @@ The Output ist split in 2 Files. One with the tuple (Bundesland, Meldedatum) ond
 
 #### PM10
 
-| Characteristic    | Description                                               |
-|:-----------------:|:--------------------------------------------------------- |
-| Bundesland        | The federal state this record is mapped to.               |
-| Datum             | The date the PM10 value was measured.                     |
-| Stationscode      | An unique code for the station.                           |
-| Stationsumgebung  | Description of the surrounding (regieon) of the station.  |
-| Art der Station   | Description how the station is installed.                 |
-| Messwert          | The measured value as the daily average of 24 hours.      |
+| Characteristic    | Description                                                                      |
+|:-----------------:|:-------------------------------------------------------------------------------- |
+| Bundesland        | The federal state this record is mapped to.                                      |
+| Datum             | The date the PM10 value was measured.                                            |
+| Stationscode      | An unique code for the station.                                                  |
+| Stationsumgebung  | Description of the surrounding (regieon) of the station.                         |
+| Art der Station   | Description how the station is installed.                                        |
+| Messwert*         | The measured value (microgram in cubic meters) as the daily average of 24 hours. |
 
 "Stationsumgebung" has the options of:
 
